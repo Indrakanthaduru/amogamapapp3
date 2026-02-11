@@ -27,7 +27,7 @@ export { LeafletMap } from './LeafletMap';
 export { LeafletMarker } from './LeafletMarker';
 export { LeafletTileLayer } from './LeafletTileLayer';
 export { LeafletGeoJSON } from './LeafletGeoJSON';
-export { MapProvider } from '@/contexts/MapContext';
+export { MapProvider } from '@/contexts/amogamapapp/MapContext';
 export { MapErrorBoundary } from './MapErrorBoundary';
 export { MapLoadingSpinner } from './MapLoadingSpinner';
 export { MapMain } from './MapMain';

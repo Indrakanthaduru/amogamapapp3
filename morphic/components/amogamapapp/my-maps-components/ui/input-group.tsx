@@ -4,9 +4,9 @@ import * as React from "react"
 import { cva, type VariantProps } from "class-variance-authority"
 
 import { cn } from "@/lib/amogamapapp/utils"
-import { Button } from "@/components/my-maps-components/ui/button"
-import { Input } from "@/components/my-maps-components/ui/input"
-import { Textarea } from "@/components/my-maps-components/ui/textarea"
+import { Button } from "@/components/amogamapapp/my-maps-components/ui/button"
+import { Input } from "@/components/amogamapapp/my-maps-components/ui/input"
+import { Textarea } from "@/components/amogamapapp/my-maps-components/ui/textarea"
 
 function InputGroup({ className, ...props }: React.ComponentProps<"div">) {
   return (

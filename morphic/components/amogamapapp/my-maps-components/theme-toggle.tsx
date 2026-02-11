@@ -3,13 +3,13 @@
 import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
 
-import { Button } from "@/components/my-maps-components/ui/button";
+import { Button } from "@/components/amogamapapp/my-maps-components/ui/button";
 import {
     DropdownMenu,
     DropdownMenuContent,
     DropdownMenuItem,
     DropdownMenuTrigger,
-} from "@/components/my-maps-components/ui/dropdown-menu";
+} from "@/components/amogamapapp/my-maps-components/ui/dropdown-menu";
 
 export function ModeToggle() {
     const { setTheme } = useTheme();

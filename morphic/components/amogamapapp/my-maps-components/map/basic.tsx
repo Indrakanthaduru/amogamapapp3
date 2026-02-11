@@ -21,7 +21,7 @@ import {
     MapPopup,
     MapTileLayer,
     MapZoomControl,
-} from "@/components/my-maps-components/ui/map";
+} from "@/components/amogamapapp/my-maps-components/ui/map";
 
 const BasicMap = () => {
     const USA_CENTER = [39.8283, -98.5795] satisfies LatLngExpression;

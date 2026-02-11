@@ -7,13 +7,13 @@ import {
     CommandGroup,
     CommandItem,
     CommandList,
-} from "@/components/my-maps-components/ui/command"
+} from "@/components/amogamapapp/my-maps-components/ui/command"
 import {
     InputGroup,
     InputGroupAddon,
     InputGroupInput,
-} from "@/components/my-maps-components/ui/input-group"
-import { Spinner } from "@/components/my-maps-components/ui/spinner"
+} from "@/components/amogamapapp/my-maps-components/ui/input-group"
+import { Spinner } from "@/components/amogamapapp/my-maps-components/ui/spinner"
 import type { BBox, Feature, FeatureCollection, Point } from "geojson"
 import { MapPinIcon, SearchIcon } from "lucide-react"
 import * as React from "react"

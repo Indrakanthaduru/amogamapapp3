@@ -11,7 +11,7 @@ import {
   DialogDescription,
   DialogHeader,
   DialogTitle,
-} from "@/components/my-maps-components/ui/dialog"
+} from "@/components/amogamapapp/my-maps-components/ui/dialog"
 
 function Command({
   className,

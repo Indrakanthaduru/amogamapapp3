@@ -4,7 +4,7 @@ import * as React from "react"
 import * as AlertDialogPrimitive from "@radix-ui/react-alert-dialog"
 
 import { cn } from "@/lib/amogamapapp/utils"
-import { buttonVariants } from "@/components/my-maps-components/ui/button"
+import { buttonVariants } from "@/components/amogamapapp/my-maps-components/ui/button"
 
 function AlertDialog({
   ...props

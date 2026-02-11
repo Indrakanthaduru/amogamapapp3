@@ -5,6 +5,7 @@ import Link from 'next/link'
 import {
   Link2,
   LogIn,
+  Map,
   Palette,
   Settings2 // Or EllipsisVertical, etc.
 } from 'lucide-react'
@@ -59,6 +60,13 @@ export default function GuestMenu() {
             <ExternalLinkItems />
           </DropdownMenuSubContent>
         </DropdownMenuSub>
+        <DropdownMenuSeparator />
+        <DropdownMenuItem asChild>
+          <Link href="/my-maps">
+            <Map className="mr-2 h-4 w-4" />
+            <span>My Maps</span>
+          </Link>
+        </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
   )

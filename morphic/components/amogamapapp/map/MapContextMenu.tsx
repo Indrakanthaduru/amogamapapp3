@@ -2,7 +2,7 @@
 
 import { memo, useCallback, useEffect, useRef, useState, useMemo } from "react";
 import { Copy, MapPin, Ruler, Check, Star } from "lucide-react";
-import { formatDecimalDegrees } from "@/lib/utils/coordinates";
+import { formatDecimalDegrees } from "@/lib/amogamapapp/utils/coordinates";
 import type { ContextMenuPosition } from "@/hooks/amogamapapp/useMapContextMenu";
 
 interface MapContextMenuProps {

@@ -6,7 +6,7 @@ import {
 } from "lucide-react"
 
 import { cn } from "@/lib/amogamapapp/utils"
-import { buttonVariants, type Button } from "@/components/my-maps-components/ui/button"
+import { buttonVariants, type Button } from "@/components/amogamapapp/my-maps-components/ui/button"
 
 function Pagination({ className, ...props }: React.ComponentProps<"nav">) {
   return (

@@ -22,7 +22,7 @@ import {
   getCategoryColor,
   getCategoryBgColor,
 } from "@/constants/amogamapapp/poi-categories";
-import { formatDecimalDegrees } from "@/lib/utils/coordinates";
+import { formatDecimalDegrees } from "@/lib/amogamapapp/utils/coordinates";
 
 interface MapPOIPanelProps {
   isOpen: boolean;

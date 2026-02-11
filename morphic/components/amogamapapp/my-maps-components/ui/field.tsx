@@ -4,8 +4,8 @@ import { useMemo } from "react"
 import { cva, type VariantProps } from "class-variance-authority"
 
 import { cn } from "@/lib/amogamapapp/utils"
-import { Label } from "@/components/my-maps-components/ui/label"
-import { Separator } from "@/components/my-maps-components/ui/separator"
+import { Label } from "@/components/amogamapapp/my-maps-components/ui/label"
+import { Separator } from "@/components/amogamapapp/my-maps-components/ui/separator"
 
 function FieldSet({ className, ...props }: React.ComponentProps<"fieldset">) {
   return (

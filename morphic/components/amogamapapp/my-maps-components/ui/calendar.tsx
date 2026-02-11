@@ -13,7 +13,7 @@ import {
 } from "react-day-picker"
 
 import { cn } from "@/lib/amogamapapp/utils"
-import { Button, buttonVariants } from "@/components/my-maps-components/ui/button"
+import { Button, buttonVariants } from "@/components/amogamapapp/my-maps-components/ui/button"
 
 function Calendar({
   className,

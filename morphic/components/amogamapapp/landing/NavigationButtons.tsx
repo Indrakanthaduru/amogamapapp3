@@ -9,7 +9,7 @@ export function NavigationButtons() {
     <div className="flex flex-col sm:flex-row gap-5 items-center justify-center w-full max-w-2xl mx-auto px-4">
       {/* Go to Map button */}
       <Link
-        href="/map"
+        href="/my-maps/map"
         className="group flex w-64 items-center justify-between rounded-full bg-amber-600/90 pl-6 pr-2 py-2 text-sm font-semibold text-zinc-900 transition-colors hover:bg-amber-600"
       >
         <svg

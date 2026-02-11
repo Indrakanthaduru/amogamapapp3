@@ -14,7 +14,7 @@ import {
 } from "react-hook-form"
 
 import { cn } from "@/lib/amogamapapp/utils"
-import { Label } from "@/components/my-maps-components/ui/label"
+import { Label } from "@/components/amogamapapp/my-maps-components/ui/label"
 
 const Form = FormProvider
 
